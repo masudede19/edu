@@ -68,8 +68,10 @@ a:focus-visible,
   padding: 4rem var(--space);
   color: #fff;
   background:
-    linear-gradient(90deg, rgb(0 0 0 / 72%), rgb(0 0 0 / 18%)),
-    linear-gradient(135deg, #3e7562, #b97a45);
+   linear-gradient(90deg, rgb(0 0 0 / 72%), rgb(0 0 0 / 18%)),
+   url(../images/カフェ.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero__content {
